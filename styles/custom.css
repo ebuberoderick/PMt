@@ -1,0 +1,106 @@
+/* #2b2d60 */
+
+
+/* #dd7723 orange*/
+
+
+/* #f7f7f7 white */
+
+.nav-link {
+    color: #2b2d60;
+    fill-opacity: 0.5;
+}
+
+a {
+    outline: none;
+}
+
+[type="checkbox"].filled-in:not(:checked)+span:not(.lever)::after {
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: none;
+    top: 8%;
+    left: -3px;
+}
+
+[type="checkbox"].filled-in+span:not(.lever)::before,
+[type="checkbox"].filled-in+span:not(.lever)::after {
+    content: '';
+    left: 3px;
+    width: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+[type="checkbox"].filled-in:checked+span:not(.lever)::before {
+    width: 8px;
+    height: 13px;
+    border: none;
+}
+
+.form-control:focus {
+    border: 1px;
+    border-color: rgb(255, 94, 0);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 162, 100, 0.5);
+}
+
+.form_card {
+    background: #f7f7f7;
+    box-shadow: 9px 2px 22px;
+    border-color: rgb(255, 94, 0);
+    border-radius: 50px 0px 50px 0px;
+    max-width: 450px
+}
+
+.form_cardd {
+    background: #f7f7f7;
+}
+
+.btn-peace {
+    background-color: #2b2d60d7;
+    color: white;
+}
+
+.btn-peace:hover {
+    color: white;
+    background-color: #2b2d60;
+}
+
+.btn-peace:focus {
+    border-color: rgb(255, 94, 0);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 162, 100, 0.5);
+}
+
+.btn-peac {
+    background-color: #ff831e;
+    color: white;
+}
+
+.btn-peac:hover {
+    color: white;
+    background-color: #dd7723;
+}
+
+.btn-peac:focus {
+    border-color: rgb(255, 94, 0);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 162, 100, 0.5);
+}
+
+.active {
+    background: #2b2d60;
+    border-radius: 10px;
+}
+
+.active a {
+    color: #f7f7f7;
+}
+
+.nav-item:hover {
+    background: #2b2d60b7;
+    border-radius: 10px;
+}
+
+.nav-item a:hover {
+    color: #f7f7f7
+}
